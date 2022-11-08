@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+        html {
+            background-color: gray;
+        }
+        div.row span.box {
+            height: 50px;
+            width: 50px;
+            display: inline-block;
+            background: white;
+        }
+        div.row:nth-child(even) span.box:nth-child(even){
+            background-color: green;
+        }
+        div.row:nth-child(odd) span.box:nth-child(odd) {
+            background-color: green;
+        }
+        div.row span.box img {
+            display: block;
+            margin: auto;
+            margin-top: 5px;
+            width: 75%;
+        }
+        div.row {
+            height: 50px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="chess.js"></script>
+    </script>
+  </head>
+
+  <header>
+  </header>
+
+  <body>
+
+    <div id="chessboard"></div>
+
+  </body>
+
+  <footer>
+
+  </footer>
+</html>
